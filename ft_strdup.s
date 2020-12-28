@@ -15,11 +15,6 @@ _ft_strdup:
         pop rsi
         call _ft_strcpy
         ret
-		;use strlen to know the length and add 1 for \0
-        ;use malloc to allocation using strlen
-        ;protection malloc
-        ;using strcpy to copy rdi to the rax
-        ;ret
 _end:
 	mov rax, 0
 	ret 

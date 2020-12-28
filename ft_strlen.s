@@ -6,7 +6,7 @@ _loop:
     cmp [rdi + rax], byte 0
     je _loopend
     inc rax
-    jne _loop
+    jmp _loop
 _loopend:
     ret
 ;ask abt rcx and rdi
