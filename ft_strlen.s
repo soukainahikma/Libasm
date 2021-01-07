@@ -9,4 +9,3 @@ _loop:
     jmp _loop
 _loopend:
     ret
-;ask abt rcx and rdi
